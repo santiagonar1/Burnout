@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Burnout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Nombre de los elementos del menu desplegable -->
+    <string-array name="titulos_menu_desplegable">
+        <item >Home</item>
+        <item >Ejercitate</item>
+        <item >Relajate</item>
+        <item >Mide tu estres</item>
+        <item >Informacion</item>
+        <item >Alarma</item>
+    </string-array>
+    
+    <!-- Iconos del menu desplegable
+    ponerlos en el mismo orden que el de los nombres -->
+    <array name="iconos_menu_desplegable">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_ejercitate</item>
+        <item>@drawable/ic_relajate</item>
+        <item>@drawable/ic_medir_estres</item>
+        <item>@drawable/ic_info_burnout</item>
+        <item>@drawable/ic_alarma</item>
+    </array>
+    
+    <!-- Usado en item_menu_desplegable.xml -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
